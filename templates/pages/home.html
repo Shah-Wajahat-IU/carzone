@@ -28,7 +28,7 @@
     <link rel="stylesheet" type="text/css" id="style_sheet" href="{% static 'css/skins/red.css' %} ">
 
     <!-- Favicon icon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %} " type="image/x-icon" >
 
     <!-- Google fonts -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
@@ -824,9 +824,9 @@
                             <div class="overlap-box">
                                 <div class="overlap-btns-area">
                                     <div class="car-magnify-gallery">
-                                        <a href="img/car/car-1.jpg" class="overlap-btn">
+                                        <a href=" {% static 'img/car/car-1.jpg' %} " class="overlap-btn">
                                             <i class="fa fa-expand"></i>
-                                            <img class="hidden" src="img/car/car-1.jpg">
+                                            <img class="hidden" src="{% static 'img/car/car-1.jpg' %} ">
                                         </a>
                                         <a href="{% static 'img/car/car-2.jpg' %}" class="hidden">
                                             <img class="hidden" src="{% static 'img/car/car-2.jpg' %}">
@@ -889,9 +889,9 @@
                             <div class="overlap-box">
                                 <div class="overlap-btns-area">
                                     <div class="car-magnify-gallery">
-                                        <a href="img/car/car-1.jpg" class="overlap-btn">
+                                        <a href=" {% static 'img/car/car-1.jpg' %}" class="overlap-btn">
                                             <i class="fa fa-expand"></i>
-                                            <img class="hidden" src="img/car/car-1.jpg">
+                                            <img class="hidden" src="{% static 'img/car/car-1.jpg' %}">
                                         </a>
                                         <a href="{% static 'img/car/car-2.jpg' %}" class="hidden">
                                             <img class="hidden" src="{% static 'img/car/car-2.jpg' %}">
